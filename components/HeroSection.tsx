@@ -40,12 +40,18 @@ export default function HeroSection() {
             >
               Contact Me
             </Link>
-            <button className="flex items-center gap-2 text-primary font-bold hover:underline transition-all underline-offset-4 group">
+            <a
+              href="https://drive.google.com/file/d/1F0PQY8C02Mb37faKMa1K31PvM3yVooep/view?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-primary font-bold hover:underline transition-all underline-offset-4 group"
+            >
               Download CV
               <span className="material-symbols-outlined group-hover:translate-y-1 transition-transform">
                 download
               </span>
-            </button>
+            </a>
+
           </div>
         </div>
         <div className="lg:col-span-5 hidden lg:block">
